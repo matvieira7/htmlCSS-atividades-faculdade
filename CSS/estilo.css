@@ -64,3 +64,66 @@ footer {
 .Logo{
     width: 150px;
 }
+
+#container {
+    margin: 0 auto;
+    width: 80%;
+    color:white;
+    text-align: justify;
+}
+
+#container h1{
+    color:aqua;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+header {
+    color: white;
+    text-align: justify;
+}
+
+nav {
+    color: white;
+    text-align: justify;
+}
+
+main {
+    color: white;
+    text-align: justify;
+}
+
+footer {
+    color: white;
+    padding-left: 2%;
+    padding-right: 5%;
+    text-align: justify;
+}
+
+footer h1{
+    color: aqua;
+}
+
+.foto1 {
+    width: 100px;
+}
+
+.foto2 {
+    width: 150px;
+}
+
+.foto3 {
+    width: 300px;
+}
+
+.foto4 {
+    width: 250px;
+}
+
+.foto5 {
+    width: 250px;
+}
