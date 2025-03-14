@@ -14,7 +14,7 @@ body {
 
 #container {
     width: 80%;
-    margin: 0 auto;
+    margin: 55px auto;
     padding: 20px;
 }
 
@@ -120,4 +120,112 @@ footer h1 {
 
 .separador {
     height: 20px; /* Ajuste o valor conforme necessário */
+}
+
+nav.topo{
+    height: 40px;
+    padding-left: 0;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 1000;
+    top: 0;
+}
+
+nav.topo ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 16px;
+    padding-left: 10px;
+    overflow: hidden;
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
+nav.topo li {
+    display: inline-block;
+}
+
+nav.topo li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav.topo li a:hover {
+    background-color: black;
+}
+
+nav.topo .active {
+    background-color: steelblue;
+}
+
+nav.lateral ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
+}
+
+nav.lateral li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav.lateral li a:hover {
+    background-color: gray;
+    color: white;
+    text-indent: 10px;
+}
+
+nav.lateral .active{
+    background-color: steelblue;
+    color: white;
+}
+
+nav.abaixo {
+    background-color:  purple;
+    margin: 25px;
+}
+
+nav.abaixo ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  purple;
+    text-align: center;
+}
+
+nav.abaixo li {
+    float: left;
+    border-right:1px solid black;
+}
+
+nav.abaixo li:last-child {
+    border-right: none;
+}
+
+nav.abaixo li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav.abaixo li a:hover {
+    background-color: black;
+}
+
+nav.abaixo .active {
+    background-color: steelblue;
 }
