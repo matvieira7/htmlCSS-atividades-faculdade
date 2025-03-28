@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 @import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+HU:wght@100..400&display=swap');
 
 @font-face {
@@ -19,7 +21,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -252,4 +253,27 @@ nav.abaixo li a:hover {
 
 nav.abaixo .active {
     background-color: #127adb;
+}
+
+table.tabela {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2%;
+}
+
+table.tabela th, table.tabela td {
+    border: 1px solid black;
+    padding: 2%;
+}
+
+table.tabela tr:nth-child(even) {
+    background-color: rgb(59, 58, 58);
+}
+
+table.tabela th {
+    background-color: #04a;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
